@@ -5,7 +5,6 @@ ehthumbs.db
 # zig files & folders to ignore
 .sass-cache/
 compass_app_log.txt
-config.rb
 *.php-*
 *.css-*
 *.html-*
