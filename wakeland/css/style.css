@@ -37,4 +37,11 @@ body.home .page-title-custom {
 @media only screen and (max-width: 767px) {
   #main-wrapper .page-title-module-custom .page-title-custom {
     font: 900 24px "Roboto", "Open Sans", "Arial", sans-serif;
-    line-height: 34px; } }
+    line-height: 34px; }
+  #main-wrapper #content .be-text-inner {
+    width: 90% !important;
+    margin: 0 auto 8px; }
+    #main-wrapper #content .be-text-inner h5 {
+      padding-bottom: 8px; }
+  #main-wrapper #content .be-section .be-row.be-no-space:last-child .column-block {
+    margin-bottom: 10px; } }

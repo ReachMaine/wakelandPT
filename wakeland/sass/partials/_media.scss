@@ -37,12 +37,17 @@
 			line-height: 34px;
 		}
 
-
-
 		#content {
 		//	padding-top: 120px;
 			.be-text-inner {
-		//		width: 92%!important;
+				width: 90%!important;
+				margin: 0 auto 8px;
+				h5 {
+					padding-bottom: 8px;
+				}
+			}
+			.be-section .be-row.be-no-space:last-child .column-block {
+				margin-bottom: 10px;
 			}
 		}
 	}
