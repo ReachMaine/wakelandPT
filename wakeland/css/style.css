@@ -1,4 +1,3 @@
-@import url("../oshin/style.css");
 /*
 Theme Name: wakeland
 Description: Oshin Child Theme for Wakeland PT
@@ -6,6 +5,7 @@ Author: Reach Maine
 Template: oshin
 Version: 1.2
 */
+@import url("../oshin/style.css");
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* ----------- Typography ------------------------------- */
@@ -27,6 +27,9 @@ body.home .page-title-custom {
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
 
+.tatsu-module {
+  margin-bottom: 15px; }
+
 /** footer **/
 #reach-bottom-cta {
   margin-top: 40px;
@@ -40,3 +43,30 @@ body.home .page-title-custom {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (max-width: 767px) {
+  #main-wrapper #hero-section .hero-section-wrap.be-section.be-bg-cover {
+    height: 200px !important; }
+  #main-wrapper .page-title-module-custom .page-title-custom {
+    font: 900 24px "Roboto", "Open Sans", "Arial", sans-serif;
+    line-height: 34px; }
+  #main-wrapper #content .be-text-inner, #main-wrapper #content .tatsu-text-inner {
+    width: 90% !important;
+    margin: 0 auto 8px; }
+    #main-wrapper #content .be-text-inner h5, #main-wrapper #content .tatsu-text-inner h5 {
+      padding-bottom: 8px; }
+  #main-wrapper #content .be-section .be-row.be-no-space:last-child .column-block {
+    margin-bottom: 10px; }
+  #main-wrapper #content .wakeland-text-banner {
+    font-size: 19px;
+    line-height: 23px; }
+
+  footer#bottom-widgets {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    footer#bottom-widgets .column-block {
+      margin-bottom: 20px; }
+    footer#bottom-widgets .widget_search {
+      margin-bottom: 20px; } }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #main-wrapper .hero-section-wrap.be-section.be-bg-cover {
+    height: 350px !important; } }
